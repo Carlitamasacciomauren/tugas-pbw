@@ -1,0 +1,43 @@
+html,
+body{
+    height: 100%;
+    background-color: #ffffff !important;
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #330066 ;
+}
+
+.login-form{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background-color: #b5b9ff !important;
+    border-radius: 10px !important;
+}
+
+input[type="text"],
+input[type="password"]{
+    background: #e7e7e7;
+    color: #fff;
+    border: 2px solid #330066;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.card-title{
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.btn{
+    background: #5d61b0;
+    color: #fffbfb;
+    transform: translateY(10px);
+    font-size: 14px;
+    border-radius: 10px !important;
+}
